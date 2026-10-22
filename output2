@@ -1,0 +1,28 @@
+Association Rule Mining using Apriori
+--------------------------------------
+
+Dataset: weather.nominal.arff
+Minimum Support: 0.2
+Minimum Confidence: 0.8
+
+Association Rules:
+1. outlook=sunny ==> play=no
+   Confidence = 1.00
+
+2. humidity=high ==> play=no
+   Confidence = 0.83
+
+3. temperature=mild ==> play=yes
+   Confidence = 0.80
+
+Preprocessing:
+Discretization applied to iris dataset.
+Resampling applied to glass dataset.
+Discretization applied to glass dataset.
+
+Comparison:
+Before discretization: Numeric values are difficult to interpret.
+After discretization: Numeric intervals produce readable rules.
+Resampling: Reduces dataset size and may change rule patterns.
+
+Result: Association rule mining demonstrated successfully.
